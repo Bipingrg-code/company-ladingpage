@@ -1,5 +1,5 @@
 import { Headers } from "./components/Headers/Headers";
-import { About, Hero, Customers, Service, Teams } from "./pages";
+import { About, Hero, Customers, Service, Teams, Contact } from "./pages";
 export default function App() {
   return (
     <>
@@ -9,6 +9,7 @@ export default function App() {
       <About />
       <Service />
       <Teams />
+      <Contact />
     </>
   );
 }

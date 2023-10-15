@@ -7,10 +7,21 @@ import {
   heroImage,
   whyUsImage,
   skillsImage,
-} from "../assets/images";
+  webIcon,
+  designIcon,
+  analysisIcon,
+  appIcon,
+  team1Images,
+  team2Images,
+  team3Images,
+  team4Images,
+} from "../assets";
 export { heroImage };
 export { whyUsImage };
 export { skillsImage };
+
+export { webIcon, designIcon, analysisIcon, appIcon };
+
 export const clients = [
   { id: 1, src: client1, alt: "client1" },
   { id: 2, src: client2, alt: "client2" },
@@ -29,29 +40,90 @@ export const navLinks = [
 
 export const servicesData = [
   {
-    id:1,
+    id: 1,
     title: "Web Development",
     description:
       "We create modern and responsive websites tailored to your needs.",
-    icon: "🌐",
+    iconUrl: webIcon,
   },
   {
-    id:2,
+    id: 2,
     title: "Graphic Design",
     description:
       "Our designers craft visually appealing graphics and branding materials.",
-    icon: "🎨",
+    iconUrl: designIcon,
   },
-  {id:3,
+  {
+    id: 3,
     title: "Digital Marketing",
     description:
       "We boost your online presence and reach your target audience.",
-    icon: "📈",
+    iconUrl: analysisIcon,
   },
-  {id:4,
+  {
+    id: 4,
     title: "App Development",
     description:
       "Ours exports Developers team will deliver good quality of both android and ios apps.",
-    icon: "📈",
+    iconUrl: appIcon,
+  },
+];
+
+export const teamsData = [
+  {
+    id: 1,
+    src: team1Images,
+    alt: "team1",
+    description: "Lorem Ipsum is simply dummy text of the printing",
+    name: "Bipin",
+    socialLinks: [
+      { faceBook: "https://www.facebook.com/" },
+      { instagram: "https://www.instagram.com/" },
+      { twitter: "https://twitter.com/" },
+      { linkdin: "https://www.linkedin.com/" },
+    ],
+    title: "CEO",
+  },
+  {
+    id: 2,
+    src: team2Images,
+    alt: "team2",
+    description: "Lorem Ipsum is simply dummy text of the printing",
+    name: "Bipin",
+    socialLinks: [
+      { faceBook: "https://www.facebook.com/" },
+      { instagram: "https://www.instagram.com/" },
+      { twitter: "https://twitter.com/" },
+      { linkdin: "https://www.linkedin.com/" },
+    ],
+    title: "HR Manager",
+  },
+  {
+    id: 3,
+    src: team3Images,
+    alt: "team3",
+    description: "Lorem Ipsum is simply dummy text of the printing",
+    name: "Bipin",
+    socialLinks: [
+      { faceBook: "https://www.facebook.com/" },
+      { instagram: "https://www.instagram.com/" },
+      { twitter: "https://twitter.com/" },
+      { linkdin: "https://www.linkedin.com/" },
+    ],
+    title: "Marketing Head",
+  },
+  {
+    id: 4,
+    src: team4Images,
+    alt: "team4",
+    description: "Lorem Ipsum is simply dummy text of the printing",
+    name: "Bipin",
+    socialLinks: [
+      { faceBook: "https://www.facebook.com/" },
+      { instagram: "https://www.instagram.com/" },
+      { twitter: "https://twitter.com/" },
+      { linkdin: "https://www.linkedin.com/" },
+    ],
+    title: "Accountant",
   },
 ];
