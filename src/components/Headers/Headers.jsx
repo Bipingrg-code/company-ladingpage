@@ -7,7 +7,7 @@ export function Headers() {
   //   setIsOpen(true);
   // };
   return (
-    <nav className="h-[80px] bg-secondaryDark">
+    <nav className="h-[80px] bg-secondaryDark fixed w-full top-0 left-0 z-10 font-sans">
       <div className="container mx-auto flex items-center justify-between h-full text-secondaryLight">
         <div className="flex items-center">
           <span className="text-white text-2xl uppercase font-bold font-sans tracking-wider">
@@ -28,3 +28,5 @@ export function Headers() {
     </nav>
   );
 }
+
+export default Headers

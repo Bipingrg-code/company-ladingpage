@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer/Footer";
 import { Headers } from "./components/Headers/Headers";
 import { About, Hero, Customers, Service, Teams, Contact } from "./pages";
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <Service />
       <Teams />
       <Contact />
+      <Footer />
     </>
   );
 }
